@@ -1,0 +1,19 @@
+version: '2'
+services:
+  rabbitmq:
+      image: rabbitmq:3-management
+      restart: always
+      ports:
+        - 15672:15672
+  registry:
+    image: spring-boot-cloud/registry
+    ports:
+      - "8761:8761"
+  config:
+    image: spring-boot-cloud/config
+    ports:
+      - "8888:8888"
+networks:
+  default:
+    external:
+      name: uaa_network

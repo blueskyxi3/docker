@@ -1,0 +1,10 @@
+version: '2'
+services:
+  monitor:
+    image: spring-boot-cloud/monitor
+    ports:
+      - "8040:8040"
+networks:
+  default:
+    external:
+      name: uaa_network
