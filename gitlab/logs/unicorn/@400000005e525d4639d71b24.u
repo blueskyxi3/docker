@@ -1,0 +1,7 @@
+2020-01-27_06:40:50.05229 Received TERM from runit, sending to process group (-PID)
+2020-01-27_06:40:50.05437 Terminated
+2020-01-27_06:40:50.05468 forwarding TERM to unicorn master 976
+2020-01-27_06:40:50.06239 Waiting for unicorn to die...
+2020-01-27_06:40:51.06986 forwarding CONT to unicorn master 976
+2020-01-27_06:40:51.07065 /opt/gitlab/embedded/bin/gitlab-unicorn-wrapper: line 132: kill: (976) - No such process
+2020-01-27_06:40:51.07113 wrapper for unicorn master 976 exiting

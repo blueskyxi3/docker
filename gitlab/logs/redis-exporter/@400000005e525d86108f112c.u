@@ -1,0 +1,4 @@
+2020-02-23_11:09:00.22684 time="2020-02-23T11:09:00Z" level=info msg="Redis Metrics Exporter 0.20.2    build date: 2018-07-31T00:16:55+00:00    sha1: 4d4fc0ddabba3a1fe237d25d06bacd90927271a8    Go: go1.10.3" 
+2020-02-23_11:09:00.22758 time="2020-02-23T11:09:00Z" level=info msg="Providing metrics at localhost:9121/metrics" 
+2020-02-23_11:09:00.22855 time="2020-02-23T11:09:00Z" level=info msg="Connecting to redis hosts: []string{\"unix:///var/opt/gitlab/redis/redis.socket\"}" 
+2020-02-23_11:09:00.22879 time="2020-02-23T11:09:00Z" level=info msg="Using alias: []string{\"\"}" 

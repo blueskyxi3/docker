@@ -1,0 +1,36 @@
+=============== Jan 27, 2020 (UTC) ===============
+06:26:41.134249 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+06:26:41.138921 db@open opening
+06:26:41.140975 version@stat F·[] S·0B[] Sc·[]
+06:26:41.143208 db@janitor F·2 G·0
+06:26:41.143463 db@open done T·4.2419ms
+06:27:12.471093 db@close closing
+06:27:12.471697 db@close done T·603.2µs
+=============== Jan 27, 2020 (UTC) ===============
+06:27:12.711138 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+06:27:12.720380 version@stat F·[] S·0B[] Sc·[]
+06:27:12.721979 db@open opening
+06:27:12.724647 journal@recovery F·1
+06:27:12.725786 journal@recovery recovering @1
+06:27:12.753124 memdb@flush created L0@2 N·1607 S·303KiB "\x04db\x06db0,v199":"\x1cre..0f4,v105"
+06:27:12.755187 version@stat F·[1] S·303KiB[303KiB] Sc·[0.25]
+06:27:12.760474 db@janitor F·3 G·0
+06:27:12.760746 db@open done T·38.3209ms
+06:40:47.749359 db@close closing
+06:40:47.751566 db@close done T·2.2101ms
+=============== Feb 23, 2020 (UTC) ===============
+11:09:02.526786 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:09:02.532182 version@stat F·[1] S·303KiB[303KiB] Sc·[0.25]
+11:09:02.534934 db@open opening
+11:09:02.536149 journal@recovery F·1
+11:09:02.537132 journal@recovery recovering @3
+11:09:02.547649 memdb@flush created L0@5 N·156 S·61KiB "\x04le\b+Inf,v1748":"\x14sc..ema,v1662"
+11:09:02.548665 version@stat F·[2] S·365KiB[365KiB] Sc·[0.50]
+11:09:02.555668 db@janitor F·4 G·0
+11:09:02.555962 db@open done T·20.7057ms
+11:09:33.659273 table@compaction L0·2 -> L1·0 S·365KiB Q·2058
+11:09:33.690564 table@build created L1@8 N·1443 S·271KiB "\x04db\x06db0,v199":"\x1cre..0f4,v105"
+11:09:33.694639 version@stat F·[0 1] S·271KiB[0B 271KiB] Sc·[0.00 0.00]
+11:09:33.696980 table@compaction committed F-1 S-93KiB Ke·0 D·320 T·36.6883ms
+11:09:33.699537 table@remove removed @5
+11:09:33.702103 table@remove removed @2

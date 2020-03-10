@@ -1,0 +1,6 @@
+version: '3.1'
+services:
+  busybox:
+    restart: always
+    image: busybox
+    container_name: mybusybox
