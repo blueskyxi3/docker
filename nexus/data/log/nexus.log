@@ -1,6 +1,0 @@
-2020-02-28 00:00:00,044+0000 INFO  [quartz-3-thread-20]  *SYSTEM org.sonatype.nexus.quartz.internal.task.QuartzTaskInfo - Task 'Task log cleanup' [tasklog.cleanup] state change WAITING -> RUNNING
-2020-02-28 00:00:00,210+0000 INFO  [quartz-3-thread-20]  *SYSTEM org.sonatype.nexus.tasklog.TaskLogCleanup - Cleaning up log files in /nexus-data/log/tasks older than 30 days
-2020-02-28 00:00:00,309+0000 INFO  [quartz-3-thread-20]  *SYSTEM org.sonatype.nexus.quartz.internal.task.QuartzTaskInfo - Task 'Task log cleanup' [tasklog.cleanup] state change RUNNING -> WAITING (OK)
-2020-02-28 01:00:00,008+0000 INFO  [quartz-3-thread-20]  *SYSTEM org.sonatype.nexus.quartz.internal.task.QuartzTaskInfo - Task 'Cleanup service' [repository.cleanup] state change WAITING -> RUNNING
-2020-02-28 01:00:00,044+0000 INFO  [quartz-3-thread-20]  *SYSTEM org.sonatype.nexus.cleanup.internal.task.CleanupTask - Task log: /nexus-data/log/tasks/repository.cleanup-20200228010000029.log
-2020-02-28 01:00:00,075+0000 INFO  [quartz-3-thread-20]  *SYSTEM org.sonatype.nexus.quartz.internal.task.QuartzTaskInfo - Task 'Cleanup service' [repository.cleanup] state change RUNNING -> WAITING (OK)
