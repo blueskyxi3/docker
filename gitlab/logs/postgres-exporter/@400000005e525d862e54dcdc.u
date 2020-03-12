@@ -1,5 +1,0 @@
-2020-02-23_11:09:09.35261 time="2020-02-23T11:09:09Z" level=info msg="Established new database connection." source="postgres_exporter.go:995"
-2020-02-23_11:09:09.43847 time="2020-02-23T11:09:09Z" level=info msg="Semantic Version Changed: 0.0.0 -> 9.6.8" source="postgres_exporter.go:925"
-2020-02-23_11:09:09.91115 time="2020-02-23T11:09:09Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1137"
-2020-02-23_11:09:48.38209 time="2020-02-23T11:09:48Z" level=info msg="Established new database connection." source="postgres_exporter.go:995"
-2020-02-23_11:09:48.43826 time="2020-02-23T11:09:48Z" level=info msg="Semantic Version Changed: 0.0.0 -> 9.6.8" source="postgres_exporter.go:925"

@@ -1,4 +1,0 @@
-2020-01-27_06:25:08.54154 LOG:  database system was shut down at 2020-01-27 06:25:04 GMT
-2020-01-27_06:25:08.55025 LOG:  MultiXact member wraparound protections are now enabled
-2020-01-27_06:25:08.55324 LOG:  database system is ready to accept connections
-2020-01-27_06:25:08.55401 LOG:  autovacuum launcher started
