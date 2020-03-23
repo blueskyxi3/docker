@@ -1,0 +1,15 @@
+version: '3.1'
+services:
+  jenkins:
+     restart: always
+     image: jenkins/jenkins:lts
+     container_name: myjenkins
+     ports:
+       - 8080:8080
+       - 50000:50000
+     volumes:
+       - ./home:/var/jenkins_home
+       - ./default.json:/var/jenkins_home/updates/default.json
+     environment:
+       TZ: Asia/Shanghai
+     user: root

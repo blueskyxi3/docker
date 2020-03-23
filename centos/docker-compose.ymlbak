@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+  vincent00001:
+     environment:
+       PARAMS: 88888
+     restart: always
+     image: centos:centos7
+     container_name: vincentzou01
+     command: /usr/sbin/init 

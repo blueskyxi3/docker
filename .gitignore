@@ -1,4 +1,4 @@
-gitlab/data/*
-gitlab/logs/*
-gitlab *.db
+mysql/data/
+*/data/
 harbor.v1.10.1.tar.gz
+jenkins/home
