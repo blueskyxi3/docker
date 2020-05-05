@@ -6,5 +6,5 @@ services:
     image: xuxueli/xxl-job-admin
     restart: always
     ports:
-      - 8085:8000
+      - 8085:8080
 #    command: java -jar /app.jar ${PARAMS}

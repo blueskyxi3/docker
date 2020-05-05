@@ -2,6 +2,7 @@ version: '3.1'
 services:
   vincenttest:
      restart: always
-     image: centos:centos7
+     build: ./
+     ports:
+       - "2222:22"
      container_name: vincentzou01
-     command: echo ${PARAMS} 

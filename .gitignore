@@ -2,3 +2,14 @@ mysql/data/
 */data/
 harbor.v1.10.1.tar.gz
 jenkins/home
+*/logs/
+.DS_Store
+gitlab/config
+*/jasperreports_data
+*/mariadb_data
+guacamole/guacamole-client
+*/root
+*/webapps
+*/conf
+nginx/wwwroot
+guacamole/guacamole-home

@@ -1,4 +1,4 @@
-version: '3.1'
+version: '3.4'
 services:
   db:
     image: mysql
@@ -12,6 +12,14 @@ services:
       --explicit_defaults_for_timestamp=true
       --lower_case_table_names=1
     ports:
-      - 3307:3306
+      - 3306:3306
     volumes:
       - ./data:/var/lib/mysql
+
+  guacd:
+    image: guacamole/guacd
+    restart: always
+    ports: 
+      - 4822:4822
+    environment:
+      GUACD_LOG_LEVEL: debug

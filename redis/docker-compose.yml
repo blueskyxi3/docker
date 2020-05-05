@@ -1,0 +1,17 @@
+version: "3.4"
+services:
+  redis-web:
+    image: redis-web:1.0
+    container_name: redis-web
+    restart: always
+    environment:
+      REDIS_HOST: redis
+    ports:
+      - 8001:8001
+    # 链接到其它容器，并启别名redis
+    links:
+      - redis-app:redis
+  redis-app:
+    image: redis:latest
+    container_name: redis-app
+    restart: always
